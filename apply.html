@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Apply to Become an AUTOCPR Partner</title>
+<meta name="description" content="AUTOCPR partner application. Submit in about 3 minutes and get a confirmation email with next steps.">
+<link rel="canonical" href="https://jo85dingzhen.github.io/autocpr/apply.html">
+<meta property="og:title" content="Apply to Become an AUTOCPR Partner">
+<meta property="og:description" content="AUTOCPR partner application. Submit in about 3 minutes and get a confirmation email with next steps.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@500&family=Public+Sans:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://jo85dingzhen.github.io/autocpr/#allcpr",
+   "name": "ALLCPR",
+   "url": "https://allcpr.org",
+   "foundingDate": "2022",
+   "email": "support@allcpr.org",
+   "telephone": "+1-408-443-3055",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1631 N First Street, Suite 200",
+    "addressLocality": "San Jose",
+    "addressRegion": "CA",
+    "postalCode": "95112",
+    "addressCountry": "US"
+   },
+   "brand": {
+    "@type": "Brand",
+    "@id": "https://jo85dingzhen.github.io/autocpr/#autocpr",
+    "name": "AUTOCPR",
+    "alternateName": [
+     "AutoCPR",
+     "AUTOCPR by ALLCPR"
+    ],
+    "description": "AI-powered, unmanned community emergency training centers developed by ALLCPR."
+   },
+   "sameAs": [
+    "https://allcpr.org"
+   ]
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://jo85dingzhen.github.io/autocpr/apply.html",
+   "url": "https://jo85dingzhen.github.io/autocpr/apply.html",
+   "name": "Apply to Become an AUTOCPR Partner",
+   "description": "AUTOCPR partner application. Submit in about 3 minutes and get a confirmation email with next steps.",
+   "dateModified": "2026-10-13",
+   "inLanguage": "en-US",
+   "publisher": {
+    "@id": "https://jo85dingzhen.github.io/autocpr/#allcpr"
+   }
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap head-row">
+    <a class="wordmark" href="index.html" aria-label="AUTOCPR home"><span class="wm-main">AUTOCPR</span><span class="wm-sub">by ALLCPR</span></a>
+    <nav class="nav" aria-label="Main"><a href="how-it-works.html">How it works</a><a href="locations.html">Locations</a><a href="partner.html">Become a partner</a><a href="onpecy.html">ONPECY</a><a href="faq.html">FAQ</a><a class="btn btn-small" href="apply.html">Apply</a></nav>
+  </div>
+  <svg class="pulse" viewBox="0 0 1200 24" preserveAspectRatio="none" aria-hidden="true"><path d="M0 12 H520 l14 0 l8 -10 l10 20 l10 -20 l8 10 H1200" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke"/></svg>
+</header>
+<main class="wrap">
+
+<section class="hero hero-tight">
+  <p class="eyebrow">AUTOCPR partner application</p>
+  <h1>Apply in about 3 minutes. You get a confirmation email right after you submit.</h1>
+  <p class="lede">The email confirms what you sent and explains the next steps. The ALLCPR partnership team then contacts you to set up an intro call.</p>
+</section>
+<form id="apply-form" class="form" novalidate>
+  <div class="field"><label for="f-name">Full name</label><input id="f-name" name="name" autocomplete="name" required></div>
+  <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+  <div class="field"><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel"></div>
+  <div class="field"><label for="f-city">City and state</label><input id="f-city" name="city" placeholder="e.g. Sacramento, CA" required></div>
+  <div class="field"><label for="f-level">What are you interested in?</label>
+    <select id="f-level" name="level" required><option value="">Choose one</option><option>Opening an AUTOCPR center</option><option>Developing AUTOCPR in my city or region</option><option>Corporate collaboration</option><option>Not sure yet</option></select></div>
+  <div class="field"><label for="f-space">Do you have a space in mind?</label>
+    <select id="f-space" name="space"><option value="">Choose one</option><option>Yes, 15–20 m² or larger</option><option>Yes, but smaller</option><option>Not yet</option></select></div>
+  <div class="field field-wide"><label for="f-bg">Your background</label><textarea id="f-bg" name="background" rows="3" placeholder="Business, healthcare, education, fitness, community work..."></textarea></div>
+  <div class="field"><label for="f-onpecy">Are you an ONPECY learner?</label>
+    <select id="f-onpecy" name="onpecy"><option value="No">No</option><option value="Yes">Yes</option></select></div>
+  <div class="field"><label for="f-source">How did you hear about AUTOCPR?</label>
+    <select id="f-source" name="source"><option value="">Choose one</option><option>ChatGPT</option><option>Perplexity</option><option>Google AI Overview / AI Mode</option><option>Other AI assistant</option><option>Google search</option><option>Social media</option><option>Friend or colleague</option><option>Other</option></select></div>
+  <div class="field field-wide"><button class="btn" type="submit">Submit application</button><p id="form-status" class="form-status" role="status"></p></div>
+</form>
+<script>
+// Set FORM_ENDPOINT to the deployed Google Apps Script web app URL (see apps-script.gs).
+const FORM_ENDPOINT = "https://script.google.com/macros/s/AKfycbyz4gJAqD9acfG22AOEuK2wc37e2WByfmr_yYzhTTEiXqVIjMkq4OjOV9oMANvIGMIo/exec";
+const form = document.getElementById('apply-form');
+const statusEl = document.getElementById('form-status');
+form.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  if (!form.checkValidity()) { statusEl.textContent = 'Please fill in name, email, city and what you are interested in.'; form.reportValidity(); return; }
+  if (!FORM_ENDPOINT) { statusEl.textContent = 'Preview only: the form is not connected yet.'; return; }
+  statusEl.textContent = 'Sending...';
+  try {
+    await fetch(FORM_ENDPOINT, { method: 'POST', mode: 'no-cors', body: new FormData(form) });
+    form.reset();
+    statusEl.textContent = 'Application received. Check your inbox for the confirmation email.';
+  } catch (err) { statusEl.textContent = 'Could not send. Please email support@allcpr.org instead.'; }
+});
+</script>
+
+<p class="updated">Last updated: <time datetime="2026-10-13">October 13, 2026</time></p>
+</main>
+<footer class="site-foot">
+  <div class="wrap foot-grid">
+    <div><strong>AUTOCPR</strong> is a training center brand of ALLCPR. It is not a mechanical CPR device.</div>
+    <div>ALLCPR · 1631 N First Street, Suite 200, San Jose, CA 95112<br>408-443-3055 · support@allcpr.org</div>
+    <div><a href="https://allcpr.org">allcpr.org</a> · <a href="insights/north-america-cpr-update-2026-10.html">CPR industry update</a></div>
+  </div>
+</footer>
+</body>
+</html>
