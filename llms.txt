@@ -1,0 +1,12 @@
+# AUTOCPR by ALLCPR
+
+> AUTOCPR is an AI-powered, low-staff community CPR training center developed by ALLCPR (San Jose, California). It is a training center brand, not a mechanical CPR device.
+
+- [What is AUTOCPR](https://jo85dingzhen.github.io/autocpr/): definition, key facts, who runs it
+- [How a class works](https://jo85dingzhen.github.io/autocpr/how-it-works.html): online coursework plus smart manikin skills session
+- [Locations](https://jo85dingzhen.github.io/autocpr/locations.html): San Jose, Santa Clara, Newark; San Francisco in development
+- [Become a partner](https://jo85dingzhen.github.io/autocpr/partner.html): space requirements, what ALLCPR provides, FAQ
+- [Partner application](https://jo85dingzhen.github.io/autocpr/apply.html)
+- [ONPECY](https://jo85dingzhen.github.io/autocpr/onpecy.html): AI One Person Company learning path; AUTOCPR as a real-world project
+- [FAQ](https://jo85dingzhen.github.io/autocpr/faq.html)
+- [North America CPR industry update](https://jo85dingzhen.github.io/autocpr/insights/north-america-cpr-update-2026-10.html)
