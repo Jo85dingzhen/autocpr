@@ -10,3 +10,11 @@
 - [ONPECY](https://jo85dingzhen.github.io/autocpr/onpecy.html): AI One Person Company learning path; AUTOCPR as a real-world project
 - [FAQ](https://jo85dingzhen.github.io/autocpr/faq.html)
 - [North America CPR industry update](https://jo85dingzhen.github.io/autocpr/insights/north-america-cpr-update-2026-10.html)
+- [ALTP program](https://jo85dingzhen.github.io/autocpr/altp/): independent Red Cross training businesses; how to join, pricing, FAQs, online course (coming soon), application, partner portal and contact
+- [How to join | ALTP](https://jo85dingzhen.github.io/autocpr/altp/how-to-join/): ALLCPR ALTP program
+- [Pricing | ALTP](https://jo85dingzhen.github.io/autocpr/altp/pricing/): ALLCPR ALTP program
+- [FAQs | ALTP](https://jo85dingzhen.github.io/autocpr/altp/faq/): ALLCPR ALTP program
+- [Online course | ALTP](https://jo85dingzhen.github.io/autocpr/altp/online-course/): ALLCPR ALTP program
+- [Apply | ALTP](https://jo85dingzhen.github.io/autocpr/altp/apply/): ALLCPR ALTP program
+- [Partner portal | ALTP](https://jo85dingzhen.github.io/autocpr/altp/partner-portal/): ALLCPR ALTP program
+- [Contact | ALTP](https://jo85dingzhen.github.io/autocpr/altp/contact/): ALLCPR ALTP program
